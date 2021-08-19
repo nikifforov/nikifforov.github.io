@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/../fonts/Interregular.woff2") format("woff2"), url("../fonts/../fonts/Interregular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/../fonts/Intermedium.woff2") format("woff2"), url("../fonts/../fonts/Intermedium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/../fonts/Intersemibold.woff2") format("woff2"), url("../fonts/../fonts/Intersemibold.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/../fonts/Interbold.woff2") format("woff2"), url("../fonts/../fonts/Interbold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #18216d;
+  background-color: #ffffff;
+}
+
+a {
+  color: #18216d;
+  text-decoration: none;
+}
+
+a:active, a:focus-visible {
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input, textarea {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding: 0 20px;
+  }
+}
